@@ -1,0 +1,13 @@
+//From 1 to N check if the number is divisible by both 3 and 5 print fizzbuzz Or if it is only divisible by 3 print fizzz Or if it is divisible by 5 print buzzz
+let n = 20;
+for(let i=1;i<=n;i++){
+    if(i%3==0 && i%5==0){
+        console.log(i,"Fizzbuzz");
+    }
+    else if(i%3==0){
+        console.log(i,"fizzz");
+    }
+    else if(i%5==0){
+        console.log(i,"buzzz");
+    }
+}
