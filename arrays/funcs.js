@@ -1,0 +1,15 @@
+let arr = [10,23,12,89,37,28,23,98];
+// arr.push(1);
+// console.log("push:",arr);
+// arr.pop();
+// console.log("pop:",arr);
+// arr.unshift(63);
+// console.log("unshift:",arr);
+// arr.shift();
+// console.log("shift:",arr);
+arr.splice(1,1,"hi");
+console.log("splice:",arr);
+arr.splice(1,0,"example");
+console.log("splice 2:",arr);
+let s = arr.join("-");
+console.log("join:",s);
