@@ -1,3 +1,4 @@
+//Supermarket bill
 function tBill(tot){
     let sum = 0;
     for(let i=0;i<tot.length;i++){
