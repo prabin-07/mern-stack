@@ -1,9 +1,10 @@
 let employee = {
-    name : "Sam",
-    address : {
-        city : "kochi",
-        state : "kerala"
-    }
+    name : "Prabin",
+    address : {                     //
+        city : "Kottayam",
+        state : "kerala"               //Arrays are considered objects
+    },
+    phn : [9961583169,7672926282]   //
 };
 
 for(let val in employee){
@@ -12,7 +13,7 @@ for(let val in employee){
             console.log(employee[val][key]);
         }
     }
-    else{
-        console.log(employee[val]);
-    }
+    // else{
+    //     console.log(employee[val]);
+    // }
 }
