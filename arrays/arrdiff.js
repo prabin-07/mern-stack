@@ -1,7 +1,7 @@
 // Find the difference between two arrays
 
-let arr1 = [23,44,2,1];
-let arr2 = [1,45,78,23,44];
+let arr1 = [23,50,2,1,41,42];
+let arr2 = [1,45,100,50,43];
 let diff = [];
 function diffArray(a,b){
     for(let i = 0; i < a.length; i++){

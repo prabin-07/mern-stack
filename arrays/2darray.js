@@ -1,5 +1,5 @@
-//Array operations
-let arr = [10, 20, 30, 40, 50];
+//2-D Array operations
+let arr = [[10, 20], [30, 40], [50, 60]];
 arr.push(60);  //push
 console.log("Push:", arr);
 arr.pop();  //pop
