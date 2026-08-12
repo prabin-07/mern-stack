@@ -1,3 +1,4 @@
+//Replace every negative number with 0
 let arr = [1,2,3,-2,-5];
 for(let i=0;i<arr.length;i++){
     if(arr[i]<0){
