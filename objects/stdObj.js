@@ -1,4 +1,4 @@
-//create a student Object with following properties ->name,age,city and print all the values
+//create a student Object with following properties -> name,age,city and print all the values
 let student = {
     name : "Prabin",
     age : 21,
