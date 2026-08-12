@@ -1,7 +1,7 @@
 //Merge two arrays
 
 let a1 = [1,2,3,4,5];
-let a2 = [6,7,8,9,10];
+let a2 = [5,6,7,8,9,10];
 let mArray = [];
 let val = 0;
 
@@ -11,8 +11,12 @@ for(let i=0;i<a1.length;i++){
 }
 
 for(let i=0;i<a2.length;i++){
-    mArray[val]=a2[i];
-    val++;
+    let dupe = false;
+    for(let j=0;j<mArray.length;j++){
+        
+        mArray[val]=a2[i];
+        val++;
+    }
 }
 
 console.log(mArray);

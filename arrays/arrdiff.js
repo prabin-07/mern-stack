@@ -1,5 +1,4 @@
 // Find the difference between two arrays
-
 let arr1 = [23,50,2,1,41,42];
 let arr2 = [1,45,100,50,43];
 let diff = [];

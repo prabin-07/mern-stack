@@ -8,6 +8,6 @@ function sumStr(str){
     return sum;
 }
 
-let s = "he11o";
+let s = "a1b2c3";
 let sum = 0;
 console.log("Sum of digits in string:", sumStr(s));
