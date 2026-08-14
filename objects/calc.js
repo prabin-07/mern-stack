@@ -18,7 +18,6 @@ let calculator = {
         console.log(a-b);
     },
 
-
     multiply : function(a,b){
         console.log(a*b);
     },
@@ -29,4 +28,4 @@ let calculator = {
 };
 
 calculator.add(10,5);
-// calculator.subtract(10,5);
+calculator.subtract(10,5);
